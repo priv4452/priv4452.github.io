@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Anonymous Image Upload</title>
-    <style>
-        body {
-            text-align: center;
-        }
-    </style>
+  <title>Image Upload</title>
 </head>
 <body>
-    <h1>Anonymous Image Upload</h1>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*" required><br><br>
-        <input type="submit" value="Upload">
-    </form>
+  <h1>Anonymously Upload Images</h1>
+  <form action="upload.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" />
+    <input type="submit" value="Upload" />
+  </form>
 </body>
 </html>
